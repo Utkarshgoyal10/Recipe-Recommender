@@ -1,111 +1,71 @@
-# Recipe-Recommendation-System
+# Recipe Recommender Website
 This repository contains a Recipe Recommendation System, a machine learning-based tool designed to provide personalized recipe suggestions to users. Whether you're a novice cook looking for easy-to-follow recipes or a seasoned chef seeking culinary inspiration, this system can help you discover delightful dishes tailored to your preferences.
 Link:https://drive.google.com/file/d/1rYK2YBQVC0UjksyAUv9Co1mKaJaZwr0Y/view?usp=drivesdk
+
+## Overview
+
+Welcome to the Recipe Recommender Website! This platform helps users discover and prepare delicious recipes based on their available ingredients. It also provides a unique feature that sets alarms to ensure that your prepared dishes are fresh and ready to enjoy, reducing food waste.
+
 ## Table of Contents
 
-- [Introduction](#introduction)
-- [How It Works](#how-it-works)
-- [Data](#data)
-- [Model Architecture](#model-architecture)
-- [Installation](#installation)
-- [Usage](#usage)
+- [Features](#features)
+- [Problem Statements](#problem-statements)
+- [Technologies Used](#technologies-used)
+- [How to Use](#how-to-use)
 - [Contributing](#contributing)
-  
 
-## Introduction
 
-In the age of digital technology and food enthusiasts, finding the perfect recipe can be challenging due to the sheer volume of available options. The Recipe Recommendation System aims to make this process easier by leveraging machine learning techniques to suggest recipes based on individual tastes, dietary restrictions, and cooking preferences.
+## Features
 
-## How It Works
+1. **Ingredient-Based Recipe Recommendations:** Input your available ingredients, and our algorithm will recommend the best recipes that match your inventory.
 
-The Recipe Recommendation System operates as follows:
+2. **Food Freshness Alarm:** Once you start preparing a recipe, our system sets an alarm to remind you when your dish is at its freshest, reducing food waste.
 
-1. *User Profiling*: Users create profiles by providing information about their dietary restrictions, preferred cuisines, favorite ingredients, and cooking skill level.
+3. **Spice Shelf Life Management:** Keep track of the freshness of your spices to maintain food quality.
 
-2. *Data Collection*: The system gathers recipe data from various sources, including online recipe databases and user-contributed recipes.
+4. **Discussion Section:** Engage with the community to suggest changes to recipes, discuss cooking tips, and share your experiences.
 
-3. *Feature Engineering*: Recipe features are extracted and transformed into a format suitable for machine learning. This includes ingredient lists, cooking time, difficulty level, and more.
+## Problem Statements
 
-4. *Model Training*: A recommendation model is trained using collaborative filtering, content-based filtering, or a hybrid approach, depending on user profiles and available data.
+1. **Optimizing Ingredient-Based Recipe Recommendations:**
+   - Problem: How can we enhance the accuracy of recipe suggestions based solely on user-provided ingredients?
+   - Solution: We are continually improving our algorithm to provide better recipe recommendations based on your available ingredients.
 
-5. *Personalized Recommendations*: Users receive personalized recipe recommendations based on their profiles and previous interactions with the system.
+2. **Food Freshness Alarm Timing Precision:**
+   - Problem: How do we ensure food remains fresh until the designated alarm time to reduce food waste?
+   - Solution: We use advanced calculations to set alarms that guarantee your dishes are at their best when served.
 
-6. *Feedback Loop*: Users can provide feedback on suggested recipes, which the system uses to continuously improve its recommendations.
+3. **Spice Shelf Life Management:**
+   - Problem: How can users effectively manage spice freshness to maintain food quality?
+   - Solution: We provide tools and reminders to help you track and use your spices within their recommended shelf life for fresher dishes.
 
-## Data
+4. **Streamlining Recipe Modification Discussions:**
+   - Problem: How to improve user interactions for recipe suggestions and changes in the discussion section?
+   - Solution: We are working on a platform revamp to encourage productive discussions and make it easier for users to suggest and implement recipe changes.
 
-The system relies on a diverse dataset of recipes, which includes:
+## Technologies Used
 
-- Recipe titles and descriptions
-- Ingredients and quantities
-- Cooking instructions
-- Nutritional information
-- User ratings and reviews
-- Metadata such as cuisine type, meal category, and preparation time
+- Frontend: HTML, CSS, JavaScript
+- Backend: Nodejs,Express
+- Database: MongoDB
+- Alarm Management: Task Scheduler
+- User Interaction: Community Forum
 
-The dataset used for this system is not included in this repository but can be obtained from open recipe databases or web scraping techniques.
+## How to Use
 
-## Model Architecture
+1. **Sign Up:** Create an account to personalize your experience.
 
-The Recipe Recommendation System can employ various recommendation algorithms, including but not limited to:
+2. **Input Ingredients:** Enter the ingredients you have, and let us recommend recipes for you.
 
-- *Collaborative Filtering*: Identifying recipes that similar users have enjoyed.
+3. **Start Cooking:** Once you begin preparing a dish, set the alarm for the best time to enjoy your meal.
 
-- *Content-Based Filtering*: Recommending recipes based on the user's previous interactions and the content of the recipes (ingredients, cuisine, etc.).
-
-- *Hybrid Approaches*: Combining collaborative and content-based methods for improved accuracy.
-
-The specific algorithm used can be configured based on the data available and the performance of the model.
-
-## Installation
-
-To set up the Recipe Recommendation System, follow these steps:
-
-1. Clone this repository:
-
-   shell
-   git clone https://github.com/your-username/recipe-recommendation-system.git
-   cd recipe-recommendation-system
-   
-
-2. Install the required dependencies:
-
-   shell
-   pip install -r requirements.txt
-   
-
-3. Configure the system to collect recipe data from your desired sources.
-
-4. Train or load a recommendation model using your dataset.
-
-## Usage
-
-To use the Recipe Recommendation System:
-
-1. Create a user profile by providing information about your cooking preferences and dietary restrictions.
-
-2. Receive personalized recipe recommendations based on your profile.
-
-3. Explore recommended recipes, view detailed instructions, and save your favorites.
-
-4. Provide feedback to help the system improve its recommendations.
+4. **Engage with the Community:** Join the discussion section to share your thoughts, suggestions, and learn from others.
 
 ## Contributing
 
-If you'd like to contribute to this project, please follow these guidelines:
+We welcome contributions from the community to make this platform even better. If you have suggestions, bug reports, or want to contribute to the development, please follow our [Contribution Guidelines]
 
-1. Fork the repository.
+## License
 
-2. Create a new branch for your feature or bug fix.
+This project is l
 
-3. Make your changes and test them thoroughly.
-
-4. Submit a pull request with a clear description of your changes.
-
-5. Engage in discussions and reviews with project maintainers.
-
-
-
- You are free to use, modify, and distribute it as long as you adhere to the terms specified in the license.
-
-We hope this Recipe Recommendation System enhances your culinary journey and simplifies the process of discovering delicious dishes tailored to your tastes. Your contributions and feedback are highly valued.
