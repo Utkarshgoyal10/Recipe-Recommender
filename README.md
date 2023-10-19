@@ -67,5 +67,4 @@ We welcome contributions from the community to make this platform even better. I
 
 ## License
 
-This project is l
 
